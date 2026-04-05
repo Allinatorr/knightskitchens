@@ -478,9 +478,11 @@ h1, h2, h3 {
     background: var(--bg-secondary);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 8rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    flex-wrap: wrap;
 }
 
 .stat {
@@ -1207,7 +1209,7 @@ h1, h2, h3 {
     }
 
     .stats {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 3rem;
     }
 
