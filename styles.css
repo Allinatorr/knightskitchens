@@ -476,17 +476,19 @@ h1, h2, h3 {
 .stats {
     padding: 6rem 5%;
     background: var(--bg-secondary);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 4rem;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .stat {
     text-align: center;
+    flex: 1;
 }
 
 .stat-number {
@@ -1169,7 +1171,7 @@ h1, h2, h3 {
     }
     
     .stats {
-        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column !important;
         gap: 3rem;
     }
 }
@@ -1303,8 +1305,7 @@ h1, h2, h3 {
     }
 
     .stats {
-        grid-template-columns: 1fr;
-        gap: 3rem;
+        flex-direction: column !important;
     }
 
     .features-grid {
