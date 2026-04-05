@@ -296,7 +296,7 @@ h1, h2, h3 {
 }
 
 .hero-title {
-    font-size: clamp(4rem, 12vw, 10rem);
+    font-size: clamp(2.5rem, 8vw, 6rem);
     line-height: 0.9;
     margin-bottom: 2rem;
     opacity: 0;
@@ -498,7 +498,7 @@ h1, h2, h3 {
 }
 
 .stat-number {
-    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     color: var(--text-primary);
     line-height: 1;
 }
@@ -527,7 +527,7 @@ h1, h2, h3 {
 }
 
 .features-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.8rem, 4vw, 3rem);
     line-height: 1.1;
 }
 
@@ -609,7 +609,7 @@ h1, h2, h3 {
 }
 
 .kitchens-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .kitchens-grid {
@@ -675,7 +675,7 @@ h1, h2, h3 {
 }
 
 .gallery-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.8rem, 4vw, 3rem);
 }
 
 .gallery-link {
@@ -783,7 +783,7 @@ h1, h2, h3 {
 }
 
 .testimonials-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .testimonials-grid {
@@ -862,7 +862,7 @@ h1, h2, h3 {
 }
 
 .contact-info h2 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     margin-bottom: 2rem;
 }
 
@@ -998,7 +998,7 @@ h1, h2, h3 {
 }
 
 .cta-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     line-height: 1.1;
     margin-bottom: 2rem;
 }
