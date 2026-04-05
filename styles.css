@@ -17,7 +17,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 html {
@@ -29,7 +28,6 @@ body {
     background: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.5;
-    overflow-x: hidden;
 }
 
 #canvas-container {
@@ -376,7 +374,6 @@ h1, h2, h3 {
     max-width: 1600px;
     margin: 0 auto;
     align-items: center;
-    overflow-x: hidden;
 }
 
 .about-label {
@@ -594,7 +591,6 @@ h1, h2, h3 {
 .kitchens-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    overflow-x: hidden;
 }
 
 .kitchen-card {
@@ -690,7 +686,6 @@ h1, h2, h3 {
     grid-template-columns: 1.5fr 1fr 1fr;
     grid-template-rows: 500px 400px;
     gap: 1.5rem;
-    overflow-x: hidden;
 }
 
 .gallery-item {
