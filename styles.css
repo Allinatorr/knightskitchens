@@ -476,19 +476,17 @@ h1, h2, h3 {
 .stats {
     padding: 6rem 5%;
     background: var(--bg-secondary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 8rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    flex-wrap: nowrap;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .stat {
     text-align: center;
-    min-width: 150px;
-    flex-shrink: 0;
 }
 
 .stat-number {
@@ -1171,8 +1169,8 @@ h1, h2, h3 {
     }
     
     .stats {
-        flex-wrap: wrap;
-        gap: 4rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
     }
 }
 
@@ -1213,11 +1211,6 @@ h1, h2, h3 {
     
     .hero-title {
         font-size: clamp(2.5rem, 15vw, 4.5rem);
-    }
-
-    .stats {
-        flex-wrap: wrap;
-        gap: 3rem;
     }
 
     .features-grid {
@@ -1310,7 +1303,7 @@ h1, h2, h3 {
     }
 
     .stats {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 3rem;
     }
 
