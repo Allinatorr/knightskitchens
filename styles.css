@@ -24,7 +24,8 @@ body { font-family: var(--font-body); background: var(--bg-primary); color: var(
 h1, h2, h3 { font-family: var(--font-display); font-weight: 400; }
 
 /* Navigation */
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 2rem 5%; display: flex; justify-content: space-between; align-items: center; }
+.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 2rem 5%; display: flex; justify-content: space-between; align-items: center; transition: all 0.4s var(--ease); }
+.nav.scrolled { background: rgba(10,10,10,0.95); backdrop-filter: blur(20px); padding: 1rem 5%; }
 .nav-logo { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.3em; text-transform: uppercase; color: var(--text-primary); text-decoration: none; }
 .nav-logo span { color: var(--accent-gold); }
 .nav-links { display: flex; gap: 4rem; list-style: none; }
