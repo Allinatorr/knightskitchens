@@ -478,11 +478,11 @@ h1, h2, h3 {
     background: var(--bg-secondary);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8rem;
+    gap: 4rem;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .stat {
