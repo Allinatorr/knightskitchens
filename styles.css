@@ -1175,6 +1175,64 @@ h1, h2, h3 {
         grid-template-columns: 1fr;
         gap: 4rem;
     }
+}
+
+@media (max-width: 600px) {
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 4rem) !important;
+        line-height: 1;
+    }
+    
+    .hero-title em {
+        font-size: clamp(2rem, 8vw, 4rem) !important;
+    }
+    
+    .section-title {
+        font-size: clamp(1.8rem, 6vw, 3rem) !important;
+    }
+    
+    .features-title {
+        font-size: clamp(1.8rem, 6vw, 3rem) !important;
+    }
+    
+    .gallery-title {
+        font-size: clamp(1.8rem, 6vw, 3rem) !important;
+    }
+    
+    .testimonials-title {
+        font-size: clamp(1.8rem, 6vw, 3rem) !important;
+    }
+    
+    .cta-title {
+        font-size: clamp(1.8rem, 6vw, 3rem) !important;
+    }
+    
+    .about-title {
+        font-size: clamp(1.8rem, 6vw, 3rem) !important;
+    }
+}
+
+.nav-links {
+}
+
+    .about-stat {
+        left: 0;
+        bottom: -2rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 400px;
+    }
+
+    .gallery-item:nth-child(1) {
+        grid-row: span 1;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
 
     .stat {
         width: 100%;
