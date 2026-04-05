@@ -76,7 +76,6 @@ body {
     height: 1px;
     background: var(--text-muted);
     position: relative;
-    overflow: hidden;
 }
 
 .loader-bar::after {
@@ -226,7 +225,6 @@ h1, h2, h3 {
     display: flex;
     align-items: flex-end;
     padding: 0 5% 8rem;
-    overflow: hidden;
 }
 
 .hero-bg {
@@ -317,7 +315,7 @@ h1, h2, h3 {
     background: var(--bg-primary);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    overflow: hidden;
+
 }
 
 .marquee-inner {
@@ -406,7 +404,7 @@ h1, h2, h3 {
 
 .about-image {
     position: relative;
-    overflow: hidden;
+
 }
 
 .about-image img {
@@ -519,7 +517,7 @@ h1, h2, h3 {
     background: var(--bg-primary);
     padding: 4rem 3rem;
     position: relative;
-    overflow: hidden;
+
     transition: background 0.5s ease;
 }
 
@@ -596,7 +594,7 @@ h1, h2, h3 {
 .kitchen-card {
     position: relative;
     aspect-ratio: 3/4;
-    overflow: hidden;
+
     cursor: pointer;
 }
 
@@ -690,7 +688,7 @@ h1, h2, h3 {
 
 .gallery-item {
     position: relative;
-    overflow: hidden;
+
 }
 
 .gallery-item:nth-child(1) {
@@ -942,7 +940,7 @@ h1, h2, h3 {
     background: var(--bg-primary);
     text-align: center;
     position: relative;
-    overflow: hidden;
+
 }
 
 .cta::before {
