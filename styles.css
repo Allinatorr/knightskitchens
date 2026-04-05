@@ -19,9 +19,22 @@
     box-sizing: border-box;
 }
 
+/* Base */
 html {
     scroll-behavior: smooth;
-    overflow-x: clip;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -247,12 +260,14 @@ h1, h2, h3 {
     position: absolute;
     inset: 0;
     opacity: 0.35;
+    overflow: hidden;
 }
 
 .hero-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     filter: grayscale(30%) contrast(1.1);
 }
 
